@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Myntra Regression Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="test_reusable_components.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Myntra Regression Test(failed)">
+    <classes>
+      <class name="functional_tests.AddProdToWLTest">
+        <methods>
+          <include name="setUpProcesses"/>
+          <include name="tearDownProcesses"/>
+          <include name="validateAddingProdToWL"/>
+        </methods>
+      </class> <!-- functional_tests.AddProdToWLTest -->
+    </classes>
+  </test> <!-- Myntra Regression Test(failed) -->
+</suite> <!-- Failed suite [Myntra Regression Suite] -->

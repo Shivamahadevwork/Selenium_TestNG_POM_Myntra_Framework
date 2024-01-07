@@ -1,0 +1,26 @@
+# Assigned Goals
+
+Develop automation solutions for the specified tasks mentioned below:
+
+Goal 1 - Visit the website https://www.myntra.com/.
+Goal 2 - Navigate to the Main Menu: Men > Footwear > Sport Shoes.
+Goal 3 - Apply the following side filters:
+ - Brand: Puma
+ - Price: Rs. 13799 to Rs. 17999
+- Discount Range: 70% and above
+Goal 4 - Add the first item in the third row to the Wishlist.
+Goal 5 - Log in to the website.
+Goal 6 - If no account exists, please register and then log in.
+Goal 7 - Add the wish-listed item to the cart.
+
+# Optional Goals
+
+1. Store all web elements for each page as page objects under the relevant page classes using the POM & Page Factory design patterns.
+2. Implement action methods under page classes to encapsulate specific functionalities.
+3. Develop reusable methods that can be leveraged by the page classes, promoting quick and enhanced reusability.
+4. Incorporate functions to execute advanced operations, such as capturing screenshots, iterating through windows/tabs and connecting to databases.
+5. Generate and maintain logs and reports for comprehensive documentation.
+6. Retrieve project-level generic information from a Properties file.
+7. Implement a mechanism to automatically retry test execution after encountering failures.
+8. Create a listener defining methods to be triggered at various points in the test execution, including success, failure, and skip events.
+9. Construct a screen recorder utility to capture and record test execution, facilitating easier debugging and troubleshooting.
